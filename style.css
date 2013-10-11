@@ -1,0 +1,105 @@
+@import url("css/bootstrap.min.css");
+@import url("css/bootstrap-responsive.min.css");
+
+body {
+}
+section {
+	margin-bottom: 60px;
+}
+table {
+	width:100%;
+	table-layout: fixed;
+}
+td {
+/*	white-space:nowrap; 
+	overflow: hidden;
+	text-overflow:ellipsis;*/
+}
+iframe {
+	width: 100%;
+	height: 400px;
+	border: none;
+}
+
+
+
+.date, .book, .ref, .score{
+	white-space:nowrap; 
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.date {
+	width: 20%;
+}
+.book {
+	width: 20%;
+}
+.ref {
+	width: 10%;
+}
+.score {
+	width: 10%;
+}
+.word {
+	width: 100px;
+}
+.meaning {
+	width: 100px;
+}
+.example {
+	width: 90%;
+}
+@media (max-width: 700px) {
+	.date, .book, .ref, .score {
+		display: none;
+	}
+}
+
+
+
+#quiz-result {
+	display: none;
+}
+.controller {
+	margin-bottom: 30px;	
+}
+#select-date,
+#select-date ul, 
+#select-level,
+#select-level ul,
+#quiz-option,
+#hint-div,
+#quiz-content {
+	display: none;
+}
+.selected {
+	background: #08c;
+	color: #fff;
+}
+#start {
+	margin-bottom: 30px;
+}
+#the-quiz {
+	padding: 50px 0;
+}
+
+
+.search-div,
+.search-div-grey {
+	padding: 30px 0px;
+	margin-top:-30px;
+	margin-bottom: 30px;
+}
+.search-div-grey {
+	background: #f5f5f5;
+}
+
+
+
+/*.search-result {
+	background-color: #ffff00;
+  	-webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+}
+*/
