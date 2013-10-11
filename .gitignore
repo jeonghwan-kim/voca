@@ -4,3 +4,7 @@
 *.sublime-project
 
 *.sublime-workspace
+
+html-auth.php
+
+settings.php
